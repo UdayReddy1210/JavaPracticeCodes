@@ -14,8 +14,8 @@ public class ArrayList {
 			Iterator itr = l.iterator();
 			while(itr.hasNext())
 			{
-				System.out.println(itr.next());
-				itr.remove();
+				System.out.println(itr.next());//this is for printin op
+				itr.remove();//this
 			}
 		}
 	}
